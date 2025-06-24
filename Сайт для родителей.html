@@ -1,0 +1,494 @@
+<html lang="ru"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Свадебное приглашение</title>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script><style type="text/css" id="operaUserStyle"></style><style type="text/css" id="operaUserStyle"></style><style type="text/css" id="operaUserStyle"></style>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#5F7399',secondary:'#C49595'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&amp;display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&amp;family=Montserrat:wght@300;400;500&amp;display=swap" rel="stylesheet">
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+@font-face {
+font-family: 'Testo';
+src: url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap');
+}
+body {
+font-family: 'Montserrat', sans-serif;
+background-color: #F5F2EE;
+}
+.font-testo {
+font-family: 'Cormorant Garamond', serif;
+}
+.bg-cream {
+background-color: #F5F2EE;
+}
+.text-coffee {
+color: #4A6741;
+}
+.text-bride {
+color: #C1A69B;
+}
+.text-groom {
+color: #4A6741;
+}
+.bg-bride {
+background-color: #C1A69B;
+}
+.bg-groom {
+background-color: #4A6741;
+}
+.border-bride {
+border-color: #C1A69B;
+}
+.border-groom {
+border-color: #4A6741;
+}
+.timeline-dot {
+background-color: #C1A69B;
+}
+.timeline-line {
+border-color: #C1A69B;
+}
+.palette-color {
+border: 1px solid #E5DED5;
+}
+button[type="submit"] {
+background-color: #4A6741 !important;
+}
+input, textarea {
+background-color: #F5F2EE !important;
+border-color: #E5DED5 !important;
+}
+.calendar-day {
+width: 30px;
+height: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 0.75rem;
+}
+.calendar-day.active {
+position: relative;
+}
+.calendar-day.active::after {
+content: "❤️";
+position: absolute;
+font-size: 14px;
+top: -5px;
+right: -5px;
+}
+.timeline-dot {
+width: 12px;
+height: 12px;
+border-radius: 50%;
+}
+.timeline-line {
+border-top: 2px dashed #C49595;
+flex-grow: 1;
+margin: 0 10px;
+}
+.palette-color {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+margin: 0 5px;
+}
+.heart-border {
+position: relative;
+}
+.heart-border::after {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%23C49595' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z'%3E%3C/path%3E%3C/svg%3E");
+background-repeat: repeat;
+background-size: 20px 20px;
+opacity: 0.1;
+z-index: -1;
+}
+</style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.absolute{position:absolute}.relative{position:relative}.bottom-2{bottom:0.5rem}.left-0{left:0px}.right-0{right:0px}.mx-2{margin-left:0.5rem;margin-right:0.5rem}.mx-4{margin-left:1rem;margin-right:1rem}.mx-auto{margin-left:auto;margin-right:auto}.mb-1{margin-bottom:0.25rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.mr-2{margin-right:0.5rem}.block{display:block}.flex{display:flex}.grid{display:grid}.h-2{height:0.5rem}.h-40{height:10rem}.h-48{height:12rem}.h-auto{height:auto}.min-h-screen{min-height:100vh}.w-16{width:4rem}.w-2{width:0.5rem}.w-full{width:100%}.max-w-md{max-width:28rem}.flex-1{flex:1 1 0%}.cursor-pointer{cursor:pointer}.grid-cols-7{grid-template-columns:repeat(7, minmax(0, 1fr))}.items-center{align-items:center}.justify-center{justify-content:center}.gap-1{gap:0.25rem}.gap-3{gap:0.75rem}.space-x-2 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.5rem * var(--tw-space-x-reverse));margin-left:calc(0.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-1 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.25rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.\!rounded-button{border-radius:8px !important}.rounded-button{border-radius:8px}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:16px}.border{border-width:1px}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219 / var(--tw-border-opacity, 1))}.bg-\[\#F5F2EE\]{--tw-bg-opacity:1;background-color:rgb(245 242 238 / var(--tw-bg-opacity, 1))}.bg-primary{--tw-bg-opacity:1;background-color:rgb(95 115 153 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.object-cover{object-fit:cover}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.pb-6{padding-bottom:1.5rem}.pt-10{padding-top:2.5rem}.text-center{text-align:center}.text-right{text-align:right}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.leading-relaxed{line-height:1.625}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.opacity-100{opacity:1}.opacity-50{opacity:0.5}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.hover\:bg-opacity-90:hover{--tw-bg-opacity:0.9}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-1:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-primary:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(95 115 153 / var(--tw-ring-opacity, 1))}</style><style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.absolute{position:absolute}.relative{position:relative}.bottom-2{bottom:0.5rem}.left-0{left:0px}.right-0{right:0px}.mx-2{margin-left:0.5rem;margin-right:0.5rem}.mx-4{margin-left:1rem;margin-right:1rem}.mx-auto{margin-left:auto;margin-right:auto}.mb-1{margin-bottom:0.25rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.flex{display:flex}.h-2{height:0.5rem}.h-auto{height:auto}.min-h-screen{min-height:100vh}.w-16{width:4rem}.w-2{width:0.5rem}.w-full{width:100%}.max-w-md{max-width:28rem}.flex-1{flex:1 1 0%}.items-center{align-items:center}.justify-center{justify-content:center}.gap-3{gap:0.75rem}.space-x-2 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.5rem * var(--tw-space-x-reverse));margin-left:calc(0.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:16px}.bg-\[\#F5F2EE\]{--tw-bg-opacity:1;background-color:rgb(245 242 238 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.pb-6{padding-bottom:1.5rem}.pt-10{padding-top:2.5rem}.text-center{text-align:center}.text-right{text-align:right}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-medium{font-weight:500}.font-semibold{font-weight:600}.leading-relaxed{line-height:1.625}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.opacity-100{opacity:1}.opacity-50{opacity:0.5}</style><style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.absolute{position:absolute}.relative{position:relative}.bottom-2{bottom:0.5rem}.left-0{left:0px}.right-0{right:0px}.mx-2{margin-left:0.5rem;margin-right:0.5rem}.mx-4{margin-left:1rem;margin-right:1rem}.mx-auto{margin-left:auto;margin-right:auto}.mb-1{margin-bottom:0.25rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.flex{display:flex}.h-2{height:0.5rem}.h-auto{height:auto}.min-h-screen{min-height:100vh}.w-16{width:4rem}.w-2{width:0.5rem}.w-full{width:100%}.max-w-md{max-width:28rem}.flex-1{flex:1 1 0%}.items-center{align-items:center}.justify-center{justify-content:center}.gap-3{gap:0.75rem}.space-x-2 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.5rem * var(--tw-space-x-reverse));margin-left:calc(0.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.overflow-hidden{overflow:hidden}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:16px}.bg-\[\#F5F2EE\]{--tw-bg-opacity:1;background-color:rgb(245 242 238 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.pb-6{padding-bottom:1.5rem}.pt-10{padding-top:2.5rem}.text-center{text-align:center}.text-right{text-align:right}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-medium{font-weight:500}.font-semibold{font-weight:600}.leading-relaxed{line-height:1.625}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.opacity-100{opacity:1}.opacity-50{opacity:0.5}</style></head>
+<body class="bg-cream min-h-screen">
+<div class="max-w-md mx-auto bg-[#F5F2EE] overflow-hidden relative">
+<!-- Верхняя часть с именами -->
+<div class="px-6 pt-10 pb-6 text-center">
+<div class="mb-6">
+<img src="https://static.readdy.ai/image/2f3abc9123da37771b6d69e7d44e9aaa/57362c80ccd1e5553ec6ad92a69ae2b9.png" alt="Детские фото" class="w-full h-auto rounded-lg mb-4">
+</div>
+<div class="flex items-center justify-center gap-3 mb-4">
+<h1 class="font-testo text-3xl font-semibold text-bride">Анастасия</h1>
+<span class="text-2xl">+</span>
+<h1 class="font-testo text-3xl font-semibold text-groom">Илья</h1>
+</div>
+<p class="text-gray-700 mb-4 leading-relaxed">
+Мы будем счастливы разделить с вами радость важного для нас события - дня рождения нашей семьи
+</p>
+<div class="text-center mb-6">
+<p class="font-testo text-3xl font-semibold text-coffee">23.09.2025 в 15:30</p>
+</div>
+</div>
+<!-- Календарь -->
+<div class="px-6 py-4 bg-cream rounded-lg mx-4 mb-8">
+<h2 class="font-testo text-xl text-center mb-3 text-coffee">сентябрь</h2>
+<img src="C:\Users\79532\Desktop\сайт\календарь.png">
+</div>
+<!-- Место проведения -->
+<div class="px-6 py-4 mb-8">
+<h2 class="font-testo text-2xl text-center mb-4 text-coffee">Место регистрации</h2>
+<div class="relative mb-4 rounded-lg overflow-hidden">
+<div class="carousel-container relative">
+<div class="carousel-slide">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Слайдер</title>
+    <style>
+        /* Контейнер слайдера */
+        .slider {
+            width: 400px; /* Фиксированная ширина */
+            overflow: hidden; /* Скрываем выходящие за границы изображения */
+            position: relative;
+        }
+
+        /* Контейнер, в котором будут находиться все слайды */
+        .slides {
+            display: flex; /* Располагаем слайды в ряд */
+            width: 400%; /* Делаем ширину в три раза больше (по количеству слайдов) */
+            transition: transform 0.5s ease-in-out; /* Плавное переключение слайдов */
+        }
+
+        /* Каждый отдельный слайд */
+        .slide {
+            width: 100%; /* Каждый слайд занимает всю ширину контейнера */
+            flex-shrink: 0; /* Запрещаем уменьшение элементов внутри flex-контейнера */
+        }
+
+        /* Убираем отображение радиокнопок, они нужны только для управления */
+        input[type="radio"] {
+            display: none;
+        }
+
+        /* Переключение слайдов при выборе радиокнопки */
+        #slide1:checked ~ .slides { transform: translateX(0%); }   /* Первый слайд */
+        #slide2:checked ~ .slides { transform: translateX(-100%); } /* Второй слайд */
+        #slide3:checked ~ .slides { transform: translateX(-200%); } /* Третий слайд */
+        #slide4:checked ~ .slides { transform: translateX(-300%); }
+        #slide5:checked ~ .slides { transform: translateX(-400%); }
+        #slide6:checked ~ .slides { transform: translateX(-500%); }
+        #slide7:checked ~ .slides { transform: translateX(-600%); }
+        #slide8:checked ~ .slides { transform: translateX(-700%); }
+
+        /* Контейнер для точек управления (индикаторов) */
+        .controls {
+            text-align: center; /* Размещаем точки по центру */
+            margin-top: 10px; /* Добавляем отступ сверху */
+        }
+
+        /* Стиль для точек переключения */
+        .controls label {
+            display: inline-block; /* Размещаем точки в строку */
+            width: 15px; /* Размер точки */
+            height: 15px;
+            background: gray; /* Серый цвет точки */
+            border-radius: 50%; /* Делаем точки круглыми */
+            margin: 5px; /* Добавляем небольшой отступ между ними */
+            cursor: pointer; /* Делаем курсор в виде руки при наведении */
+        }
+
+        /* Меняем цвет активной точки при выборе слайда */
+        input:checked + label {
+            background: black;
+        }
+    </style>
+
+
+<!-- Основной контейнер слайдера -->
+<div class="slider">
+    <!-- Радиокнопки для переключения слайдов -->
+    <input type="radio" name="slider" id="slide1" checked=""> <!-- Выбран по умолчанию -->
+    <input type="radio" name="slider" id="slide2">
+    <input type="radio" name="slider" id="slide3">
+    <input type="radio" name="slider" id="slide4">
+    <input type="radio" name="slider" id="slide5">
+    <input type="radio" name="slider" id="slide6">
+    <input type="radio" name="slider" id="slide7">
+    <input type="radio" name="slider" id="slide8">
+
+    <!-- Контейнер всех слайдов -->
+    <div class="slides">
+        <div class="slide"><img src="https://www.mos.ru/pgu2/imagor/zags/1920x1080/19f7da91-19d5-40a7-ba19-960dc676eb84" width="400"></div>
+        <div class="slide"><img src="https://www.mos.ru/pgu2/imagor/zags/1920x1080/5da04490-4b6f-4f54-ab56-3d5e072de347" width="400"></div>
+        <div class="slide"><img src="https://www.mos.ru/pgu2/imagor/zags/1920x1080/6235a5f7-1e49-4528-adf5-b9e082816982" width="400"></div>
+        <div class="slide"><img src="https://www.mos.ru/pgu2/imagor/zags/1920x1080/35ea6434-1765-4c26-a0a5-2885d0949dce" width="400"></div>
+        <div class="slide"><img src="https://www.mos.ru/pgu2/imagor/zags/1920x1080/fc3e966a-3391-4235-ae9e-d5809ad60d5f" width="400"></div>
+        <div class="slide"><img src="https://www.mos.ru/pgu2/imagor/zags/1920x1080/f1273206-d4d8-4338-94f0-4b47ba546cd5" width="400"></div>
+        <div class="slide"><img src="https://www.mos.ru/pgu2/imagor/zags/1920x1080/561c230a-4083-434a-91ba-3d93a93e3833" width="400"></div>
+        <div class="slide"><img src="https://www.mos.ru/pgu2/imagor/zags/1920x1080/7b68e2c0-ab62-4793-a345-d93035fd4b15" width="400"></div>
+    </div>
+
+    <!-- Индикаторы (точки) для переключения -->
+    <div class="controls">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+        <label for="slide4"></label>
+        <label for="slide5"></label>
+        <label for="slide6"></label>
+        <label for="slide7"></label>
+        <label for="slide8"></label>
+    </div>
+</div>
+
+</div>
+<div class="absolute bottom-2 left-0 right-0 flex justify-center">
+<div class="flex space-x-2">
+<div class="w-2 h-2 bg-white rounded-full opacity-100"></div>
+<div class="w-2 h-2 bg-white rounded-full opacity-50"></div>
+<div class="w-2 h-2 bg-white rounded-full opacity-50"></div>
+<div class="w-2 h-2 bg-white rounded-full opacity-50"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="text-center mb-4">
+<h3 class="font-testo text-xl mb-1">Особняк на Малой Ордынке</h3>
+<p class="text-sm text-gray-600 mb-2">Дворец бракосочетания №3 Управления ЗАГС Москвы</p>
+<p class="text-sm text-gray-600 mb-2">На территории запрещается курение, распитие алкогольных напитков, проведение церемонии "Битья бокалов и фужеров на счастье", использование в поздравлении монет, риса, хлопушек, конфетти, лепестков роз и других цветов.</p><p class="text-sm">Российская Федерация, Москва город, ул. Малая Ордынка, д. 14, стр. 1</p>
+</div>
+
+
+	<meta charset="utf-8">
+	<title>Карта</title>
+
+
+
+	<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A9ff6e982eb2daf89a2df69efb3b3fa1f3c7ff16ec4038635b2ba5882f002654c&amp;source=constructor" width="400" height="240" frameborder="0"></iframe>
+
+
+
+
+</div>
+<!-- Расписание -->
+<div class="px-6 py-4 mb-8">
+<h2 class="font-testo text-2xl text-center mb-6 text-coffee">Тайминг</h2>
+<div class="space-y-6">
+<div class="flex items-center">
+<div class="text-right w-16">
+<p class="font-medium">15:15</p>
+</div>
+<div class="flex items-center mx-2">
+<div class="timeline-dot bg-bride"></div>
+<div class="timeline-line"></div>
+</div>
+<div class="flex-1">
+<p class="font-medium">Сбор возле ЗАГСа</p>
+</div>
+</div>
+<div class="flex items-center">
+<div class="text-right w-16">
+<p class="font-medium">15:30</p>
+</div>
+<div class="flex items-center mx-2">
+<div class="timeline-dot bg-bride"></div>
+<div class="timeline-line"></div>
+</div>
+<div class="flex-1">
+<p class="font-medium">Церемония</p>
+</div>
+</div>
+<div class="flex items-center">
+<div class="text-right w-16">
+<p class="font-medium">16:00</p>
+</div>
+<div class="flex items-center mx-2">
+<div class="timeline-dot bg-bride"></div>
+<div class="timeline-line"></div>
+</div>
+<div class="flex-1">
+<p class="font-medium">Совместная фотосессия</p>
+</div>
+</div>
+<div class="flex items-center">
+<div class="text-right w-16">
+<p class="font-medium">18:00</p>
+</div>
+<div class="flex items-center mx-2">
+<div class="timeline-dot bg-bride"></div>
+<div class="timeline-line"></div></div>
+<div class="flex-1">
+<p class="font-medium">Праздничный ужин</p>
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- Дресс-код -->
+<div class="px-6 py-4 mb-8">
+<h2 class="font-testo text-2xl text-center mb-4 text-coffee">Ресторан</h2>
+<p class="text-center mb-4">Ресторан «Восход» располагается в московском парке «Зарядье», в самом центре столицы с прекрасным видом.
+
+</p>
+
+    
+    
+
+    <p class="text-center mb-4">Москва, улица Варварка, 6 стр 7. Парк «Зарядье».
+</p><img src="https://i.pinimg.com/originals/af/90/05/af9005f780043f1518adaccf26d7b257.jpg">
+    
+    
+    
+
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+</div>
+<div class="px-6 py-4 mb-8">
+<h2 class="font-testo text-2xl text-center mb-4 text-coffee">Дресс-код</h2>
+<p class="text-center mb-4">
+Нам будет приятно, если сможете добавить в ваш образ элементы данной цветовой палитры
+</p>
+<div class="flex justify-center mb-6">
+<div class="palette-color" style="background-color: ##e8e4db;"></div>
+<div class="palette-color" style="background-color: #717171;"></div>
+<div class="palette-color" style="background-color: #3d2022;"></div>
+<div class="palette-color" style="background-color: #55191b;"></div>
+<div class="palette-color" style="background-color: #291b12;"></div>
+</div>
+</div><div class="px-6 py-4 mb-8">
+<h2 class="font-testo text-2xl text-center mb-4 text-coffee">Контакты с нами</h2>
+
+ 
+<p class="text-center mb-4">Дорогие гости, просим вас всех присоединиться в группу в телеграме, там есть важная информация! 
+</p>
+
+
+<p class="text-center mb-4">Сделать это можно просто нажав на QR code.
+</p><a href="https://t.me/+jbJ0erig0f04MzUy" target="_blank">
+  <img src="C:\Users\79532\Desktop\сайт\qrcodetg11.png">
+</a></div><!-- Таймер обратного отсчета -->
+<div class="px-6 py-4 mb-8">
+<h2 class="font-testo text-2xl text-center mb-4 text-coffee">До нашей встречи</h2>
+<div class="flex justify-center space-x-4 mb-6">
+<div class="text-center">
+<div id="days" class="text-2xl font-semibold text-bride">90</div>
+<div class="text-xs text-gray-600">дней</div>
+</div>
+<div class="text-center">
+<div id="hours" class="text-2xl font-semibold text-bride">23</div>
+<div class="text-xs text-gray-600">часов</div>
+</div>
+<div class="text-center">
+<div id="minutes" class="text-2xl font-semibold text-bride">52</div>
+<div class="text-xs text-gray-600">минут</div>
+</div>
+<div class="text-center">
+<div id="seconds" class="text-2xl font-semibold text-bride">26</div>
+<div class="text-xs text-gray-600">секунд</div>
+</div>
+</div>
+<div class="text-center heart-border py-6 rounded-lg">
+<img src="C:\Users\79532\Desktop\сайт\кольцо.jpg">
+<p class="font-testo text-xl text-coffee">С нетерпением ждём!</p>
+</div>
+</div>
+</div>
+<script id="calendarScript">
+document.addEventListener('DOMContentLoaded', function() {
+const calendarDays = document.querySelectorAll('.calendar-day');
+calendarDays.forEach(day => {
+day.addEventListener('click', function() {
+if (this.textContent === '23') {
+alert('Это день нашей свадьбы! 23.09.2025');
+}
+});
+});
+});
+</script>
+<script id="carouselScript">
+document.addEventListener('DOMContentLoaded', function() {
+// Здесь будет логика для карусели изображений места проведения
+// В данном примере показан только первый слайд
+});
+</script>
+<script id="rsvpFormScript">
+document.addEventListener('DOMContentLoaded', function() {
+const form = document.getElementById('rsvpForm');
+form.addEventListener('submit', function(e) {
+e.preventDefault();
+// Создаем модальное окно для подтверждения
+const modal = document.createElement('div');
+modal.className = 'fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50';
+modal.innerHTML = `
+<div class="bg-white p-6 rounded-lg max-w-sm mx-4">
+<h3 class="text-xl font-medium mb-4">Спасибо!</h3>
+<p class="mb-4">Ваш ответ успешно отправлен. Мы очень рады, что вы разделите с нами этот особенный день!</p>
+<button class="w-full py-2 bg-primary text-white rounded-button !rounded-button cursor-pointer">Закрыть</button>
+</div>
+`;
+document.body.appendChild(modal);
+modal.querySelector('button').addEventListener('click', function() {
+modal.remove();
+});
+});
+});
+</script>
+<script id="countdownScript">
+document.addEventListener('DOMContentLoaded', function() {
+const daysElement = document.getElementById('days');
+const hoursElement = document.getElementById('hours');
+const minutesElement = document.getElementById('minutes');
+const secondsElement = document.getElementById('seconds');
+// Дата свадьбы: 23 сентября 2025 года, 15:30
+const weddingDate = new Date('2025-09-23T15:30:00');
+function updateCountdown() {
+const currentDate = new Date();
+const difference = weddingDate - currentDate;
+if (difference <= 0) {
+daysElement.textContent = '00';
+hoursElement.textContent = '00';
+minutesElement.textContent = '00';
+secondsElement.textContent = '00';
+return;
+}
+const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+daysElement.textContent = days < 10 ? `0${days}` : days;
+hoursElement.textContent = hours < 10 ? `0${hours}` : hours;
+minutesElement.textContent = minutes < 10 ? `0${minutes}` : minutes;
+secondsElement.textContent = seconds < 10 ? `0${seconds}` : seconds;
+}
+// Обновляем счетчик каждую секунду
+updateCountdown();
+setInterval(updateCountdown, 1000);
+});
+</script>
+
+</body></html>
